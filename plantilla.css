@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   background: linear-gradient(to right, rgb(100, 186, 243), hsl(0, 0%, 0%));
+  }
+
+  .menu_contenedor{
+    position: absolute;
+    right: 0%;
+    width: 25%;
+    display: flex;
+    
+    
+  
+    
+    
+  }
+
+  .menu{
+    text-decoration: rgb(99, 164, 224);
+    margin-left: 8%;
+    color: rgb(255, 255, 255);
+   
+  }
+
+  .titulo{
+    margin-top: 50px;
+    position: relative; 
+    text-align: center;
+    
+  }
+
+  .titulo h1{
+    border: rgb(100, 186, 243) solid 1px;
+    box-shadow: 1px 2px 2px black;
+    background-color: black;
+    color: white;
+    display: inline;
+    margin-left: 5%;
+  
+  }
+
+  .goalkeeper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    
+
+  }
+
+  .goalkeeper-card {
+    
+    background: linear-gradient(135deg, #ffffff 50%, #f4f4f4 50%);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: bold;
+    
+  }
+  
+  .defenders {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .defenders-card {
+    background: linear-gradient(135deg, #ffffff 50%, #f4f4f4 50%);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: bold;
+        
+  }
+
+  .midfielders{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+
+  }
+  
+  .midfielders-card{
+    background: linear-gradient(135deg, #ffffff 50%, #f4f4f4 50%);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: bold;
+        
+  }
+
+  .forwards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+
+  }
+  
+  .forwards-card{
+    background: linear-gradient(135deg, #ffffff 50%, #f4f4f4 50%);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: bold;
+        
+
+  }
+
+  .stats{
+    text-align: center;
+    border-bottom: none;
+    font-size: 14px;
+    color: #666;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+  
+  }
+
+  
+  
+.foto{
+  position: relative; left: 60%;
+  bottom: 15%;
+  height: 35%;
+  width: 35%;
+  }
+
+#rusojr{ width: 35%; 
+height: 35%;}
+
+#Pitu{
+  width: 40%;
+}
+
+#fede{
+  width: 40%;}
+
+  #manuessi{
+    width: 40%;
+  }
+
+  #romanico{
+    width: 45%;
+  }
+
+  
+
+
+
+

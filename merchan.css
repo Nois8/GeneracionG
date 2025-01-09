@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee8e8;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(100, 186, 243), hsl(0, 0%, 0%));
+}
+
+h1{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.menu_contenedor{
+    position: absolute;
+    right: 0%;
+    width: 25%;
+    display: flex;
+    
+    
+  
+    
+    
+  }
+
+  .menu{
+    text-decoration: rgb(99, 164, 224);
+    margin-left: 8%;
+    color: rgb(255, 255, 255)
+}
+
+#Camiseta_padre{
+    display: flex; 
+   gap: 15px;
+   
+}
+
+.camiseta{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    width: 300px; 
+    text-align: center;
+    padding: 20px;
+}
+
+.tamaño{
+    height: 50%;
+    width: 50%;
+}
+
+      
+      
